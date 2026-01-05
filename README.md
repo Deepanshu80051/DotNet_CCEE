@@ -622,3 +622,10 @@ CAS → Code Access Security
 GAC → Global Assembly Cache
 
 GC → Garbage Collector
+
+
+# Tools:
+
+1. GAC install? → gacutil.exe
+2. Strong name? → sn.exe
+3. Pre-JIT? → ngen.exe
