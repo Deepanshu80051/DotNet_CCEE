@@ -559,3 +559,87 @@ Q9: Security zone with minimum trust:
 a) MyComputer  b) Intranet  c) Internet  d) Untrusted ✓
 Q10: Garbage Collector kab run hota hai?
 a) Manually only  b) After every method  c) When memory needed ✓  d) Never
+
+
+🔁 Quick Revision Points – CDAC CCEE (.NET Framework)
+🔢 Must Remember Numbers
+
+3 Generations in Garbage Collector (Gen 0, Gen 1, Gen 2)
+
+85,000 bytes → Large Object Heap (LOH) threshold
+
+1 Default AppDomain (minimum per process)
+
+1.0.0.0 → Assembly version format
+
+2 Types of assemblies
+
+EXE
+
+DLL
+
+2 Cross-AppDomain communication methods
+
+Marshal by Value
+
+Marshal by Reference
+
+📍 Must Remember Locations
+
+GAC (Global Assembly Cache)
+
+C:\Windows\Assembly
+
+Stack
+
+Stores Value Types
+
+Works on LIFO (Last In First Out)
+
+Automatic cleanup (method scope based)
+
+Heap
+
+Stores Reference Types
+
+Managed by Garbage Collector
+
+🛠️ Must Remember Tools
+
+gacutil.exe
+
+Install / uninstall assemblies in GAC
+
+sn.exe
+
+Generate Strong Name key pair
+
+ngen.exe
+
+Pre-JIT compilation
+
+Generates native images
+
+ildasm.exe
+
+IL Disassembler
+
+View IL code & metadata
+
+🔤 Must Remember Full Forms
+
+CLR → Common Language Runtime
+
+IL → Intermediate Language
+
+JIT → Just-In-Time Compiler
+
+CTS → Common Type System
+
+CLS → Common Language Specification
+
+CAS → Code Access Security
+
+GAC → Global Assembly Cache
+
+GC → Garbage Collector
