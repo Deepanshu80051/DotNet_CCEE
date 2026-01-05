@@ -594,14 +594,14 @@ Marshal by Reference
 
 🛠️ Must Remember Tools
 
--gacutil.exe
+* gacutil.exe
  Install / uninstall assemblies in GAC
--sn.exe
+* sn.exe
  Generate Strong Name key pair
--ngen.exe
+* ngen.exe
   Pre-JIT compilation
   Generates native images
--ildasm.exe
+* ildasm.exe
   IL Disassembler
   View IL code & metadata
 
