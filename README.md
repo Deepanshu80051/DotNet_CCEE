@@ -21,6 +21,38 @@ IL ko bytecode bhi kehte hain
 
   MCQ Focus:
 
-IL ko MSIL ya CIL (Common IL) bhi bolte hain
-.exe/.dll files actually IL code contain karti hain
-JIT compiler IL ko machine code mein convert karta hai runtime pe
+1. IL ko MSIL ya CIL (Common IL) bhi bolte hain
+2. .exe/.dll files actually IL code contain karti hain
+3. JIT compiler IL ko machine code mein convert karta hai runtime pe
+
+## 3. Assemblies (EXE & DLL)
+Assembly kya hai?
+
+1. .NET application ki fundamental unit hai
+2. Deployment, versioning, security ka basic unit
+3. IL code + metadata + resources contain karta hai
+   
+Types:
+A) EXE (Executable Assembly)
+
+Entry point hota hai (Main method).
+Directly execute ho sakta hai.
+Process Assembly bhi kehte hain.
+Example: Console application, Windows application.
+
+B) DLL (Dynamic Link Library)
+
+No entry point (Main method nahi hota).
+Cannot execute directly.
+Dusre applications ke liye reusable code provide karta hai.
+Example: Class libraries, shared code.
+
+```
+MCQ Focus Points:
+
+EXE has entry point, DLL doesn't
+Manifest is compulsory in every assembly
+GAC location: C:\Windows\Assembly
+gacutil.exe tool GAC mein assembly install karne ke liye
+Strong name = cryptographic signature for uniqueness
+```
