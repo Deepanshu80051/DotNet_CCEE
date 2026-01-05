@@ -629,3 +629,8 @@ GC → Garbage Collector
 1. GAC install? → gacutil.exe
 2. Strong name? → sn.exe
 3. Pre-JIT? → ngen.exe
+
+
+
+## Notes - cheat  Sheet 
+https://docs.google.com/document/d/1cWu17ge1fiX8u-tFNV618LYBpsDBrPmMcCOsFXHCQrQ/edit?usp=sharing
