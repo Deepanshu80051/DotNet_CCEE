@@ -634,3 +634,16 @@ GC → Garbage Collector
 
 ## Notes - cheat  Sheet 
 https://docs.google.com/document/d/1cWu17ge1fiX8u-tFNV618LYBpsDBrPmMcCOsFXHCQrQ/edit?usp=sharing
+
+
+
+## .NET Framework & Related Concepts - MCQ Based Notes
+1. .NET Framework vs .NET Core vs Mono vs Xamarin
+Key Differences (MCQ mein frequently aata hai):
+
+1. .NET Framework: Windows-only, full-featured, older version. Example: ASP.NET, WinForms
+2. .NET Core: Cross-platform (Windows, Linux, Mac), lightweight, modern. Ab .NET 5+ ban gaya
+3. Mono: Open-source implementation of .NET Framework, cross-platform support ke liye
+4. Xamarin: Mobile app development (Android, iOS) ke liye, Mono par based hai
+5. "ILDASM kya karta hai?" → Shows IL code from assembly
+6.  LINQ = Version 3.5
